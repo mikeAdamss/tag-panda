@@ -7,12 +7,14 @@ import asyncio
 
 bot = commands.Bot(command_prefix='!')
 
+# TODO: config not hard coded
 command_list = {
     "_tag+_": "Add a tag to yourself. For example `!panda tag+ Learn_The_Dungeon`.",
     "_tag-_": "Remove a tag from yourself. For example `!panda tag- Push_The_Key`.",
     "_tags_": "List all assignable tags and which ones you have. For example `!panda tags`."
 }
 
+# TODO: config not hard coded
 mythic_plus_tags = ["Hit_The_Timer", "Push_The_Key", "Learn_The_Dungeon", "Finsh_The_Run"]
 role_tags = ["Healer", "Tank", "Dps"]
 other_tags = ["Guild_Raid"]
